@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/script_dialog_name"
+		android:layout_weight="70"
+		android:id="@+id/scriptNameTextView"
+		android:layout_margin="10dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_weight="30"
+		android:layout_alignParentRight="true"
+		android:id="@+id/addScriptNameEditText"
+		android:layout_margin="7dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/script_dialog_dosage"
+		android:layout_below="@id/scriptNameTextView"
+		android:layout_margin="10dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:id="@+id/scriptDosageTextView"
+		android:layout_marginTop="20dp"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_below="@id/addScriptNameEditText"
+		android:layout_alignParentRight="true"
+		android:layout_margin="7dp"
+		android:id="@+id/addScriptDosageEditText"
+		android:inputType="number"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text="@string/script_dialog_frequency"
+		android:layout_below="@id/scriptDosageTextView"
+		android:layout_margin="10dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/scriptFrequencyTextView"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_below="@id/addScriptDosageEditText"
+		android:layout_alignParentRight="true"
+		android:layout_margin="7dp"
+		android:id="@+id/addScriptFrequencyEditText"
+		android:inputType="number"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_below="@id/addScriptFrequencyEditText"
+		android:layout_alignParentRight="true"
+		android:layout_margin="7dp"
+		android:id="@+id/addScriptAmountEditText"
+		android:inputType="numberDecimal"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text="@string/script_dialog_amount"
+		android:layout_below="@id/scriptFrequencyTextView"
+		android:layout_margin="10dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/scriptAmountTextView"/>
+
+</RelativeLayout>
+

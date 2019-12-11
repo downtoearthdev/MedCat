@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MedCat</string>
+    <string name="user_name">Anonymous</string>
+	<string name="add_user">Name:</string>
+	<string name="pharmacy_title">Pharmacies</string>
+	<string name="med_title">Hospitals</string>
+	<string name="script_dialog_name">Name:</string>
+	<string name="script_dialog_dosage">Dosage:</string>
+	<string name="script_dialog_frequency">Frequency:</string>
+	<string name="script_dialog_amount">Amount:</string>
+</resources>

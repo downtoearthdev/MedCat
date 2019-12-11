@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id= "@+id/action_rxlocate"
+        android:icon="@drawable/ic_local_pharmacy_black_48dp"
+		android:title="@string/pharmacy_title"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_medlocate"
+        android:icon="@drawable/ic_local_hospital_black_48dp"
+        android:title="@string/med_title"
+		app:showAsAction="always"/>
+
+
+</menu>
